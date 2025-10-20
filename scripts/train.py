@@ -10,9 +10,9 @@ import albumentations as A
 
 # Configuración
 IMG_SIZE = 512
-BATCH_SIZE = 6
-EPOCHS = 30
-LEARNING_RATE = 0.0001
+BATCH_SIZE = 4
+EPOCHS = 50
+LEARNING_RATE = 0.00005
 DEVICE = 'cuda'
 
 # Dataset personalizado
